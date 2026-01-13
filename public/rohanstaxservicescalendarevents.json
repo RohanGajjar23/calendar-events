@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "updatedAt": "2026-01-13T10:00:00Z",
+  "events": [
+    {
+      "id": "evt_001",
+      "title": "GST Filing Reminder",
+      "description": "File GST for December",
+      "start": "2026-01-20T10:00:00+05:30",
+      "end": "2026-01-20T10:30:00+05:30",
+      "allDay": false,
+      "notifyBeforeMinutes": [1440, 60, 10],
+      "location": "Office",
+      "colorHex": "#5B5DE6"
+    },
+    {
+      "id": "evt_002",
+      "title": "TDS Deposit Due",
+      "description": "Deposit TDS for the month",
+      "start": "2026-01-07T11:00:00+05:30",
+      "end": "2026-01-07T11:20:00+05:30",
+      "allDay": false,
+      "notifyBeforeMinutes": [720, 60],
+      "location": "Online",
+      "colorHex": "#16A34A"
+    },
+    {
+      "id": "evt_003",
+      "title": "Team Planning (All Day)",
+      "description": "Internal planning day (no client meetings).",
+      "start": "2026-01-15T00:00:00+05:30",
+      "end": "2026-01-15T23:59:00+05:30",
+      "allDay": true,
+      "notifyBeforeMinutes": [1440],
+      "location": "Main Office",
+      "colorHex": "#F59E0B"
+    },
+    {
+      "id": "evt_004",
+      "title": "Client Meeting: Annual Return",
+      "description": "Review invoices and finalize annual return checklist.",
+      "start": "2026-01-22T16:00:00+05:30",
+      "end": "2026-01-22T17:00:00+05:30",
+      "allDay": false,
+      "notifyBeforeMinutes": [120, 30, 10],
+      "location": "Conference Room A",
+      "colorHex": "#EF4444"
+    }
+  ]
+}
+
