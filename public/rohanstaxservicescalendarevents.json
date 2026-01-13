@@ -5,7 +5,7 @@
     {
       "id": "evt_2026_01_07_tds_tcs_payment",
       "title": "TDS/TCS Payment Due",
-      "description": "TDS/TCS payment for December 2025",
+      "description": "TDS/TCS payment for Dec 25",
       "start": "2026-01-07T09:00:00+05:30",
       "end": "2026-01-07T09:30:00+05:30",
       "allDay": false,
@@ -20,7 +20,7 @@
     {
       "id": "evt_2026_01_10_gstr_7_8",
       "title": "GSTR 7/8 Filing",
-      "description": "GSTR 7/8 return for December 2025",
+      "description": "GSTR 7/8 return for Dec 25",
       "start": "2026-01-10T09:00:00+05:30",
       "end": "2026-01-10T09:30:00+05:30",
       "allDay": false,
@@ -33,9 +33,9 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_01_11_gstr_1",
+      "id": "evt_2026_01_11_gstr1_monthly",
       "title": "GSTR-1 Filing (Monthly)",
-      "description": "Monthly GSTR-1 filing for December 2025",
+      "description": "GSTR-1 monthly for Dec 25",
       "start": "2026-01-11T09:00:00+05:30",
       "end": "2026-01-11T09:30:00+05:30",
       "allDay": false,
@@ -48,9 +48,9 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_01_13_qrmp_iff",
-      "title": "QRMP / IFF Compliance",
-      "description": "IFF / QRMP-related compliance (as applicable).",
+      "id": "evt_2026_01_13_gstr1_qrmp",
+      "title": "GSTR-1 (QRMP)",
+      "description": "GSTR-1 QRMP filing for Q3 25-26",
       "start": "2026-01-13T09:00:00+05:30",
       "end": "2026-01-13T09:30:00+05:30",
       "allDay": false,
@@ -63,11 +63,11 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_01_15_pf_esic",
-      "title": "PF / ESIC Payment",
-      "description": "PF/ESIC payment for December 2025",
-      "start": "2026-01-15T09:00:00+05:30",
-      "end": "2026-01-15T09:30:00+05:30",
+      "id": "evt_2026_01_13_gstr_5_6",
+      "title": "GSTR 5/6 Filing",
+      "description": "GSTR 5/6 return for Dec 25",
+      "start": "2026-01-13T09:00:00+05:30",
+      "end": "2026-01-13T09:30:00+05:30",
       "allDay": false,
       "notifyBeforeMinutes": [
         1440,
@@ -75,12 +75,12 @@
         10
       ],
       "location": "Office",
-      "colorHex": "#F59E0B"
+      "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_01_15_tcs_return",
+      "id": "evt_2026_01_15_tcs_return_q3",
       "title": "TCS Return Due",
-      "description": "TCS return due for Q3 2025-26.",
+      "description": "TCS Return Q3 25-26",
       "start": "2026-01-15T09:00:00+05:30",
       "end": "2026-01-15T09:30:00+05:30",
       "allDay": false,
@@ -93,9 +93,24 @@
       "colorHex": "#16A34A"
     },
     {
+      "id": "evt_2026_01_15_pf_esic",
+      "title": "PF/ESIC Payment",
+      "description": "PF/ESIC payment for Dec 25",
+      "start": "2026-01-15T09:00:00+05:30",
+      "end": "2026-01-15T09:30:00+05:30",
+      "allDay": false,
+      "notifyBeforeMinutes": [
+        1440,
+        60,
+        10
+      ],
+      "location": "Office",
+      "colorHex": "#F59E0B"
+    },
+    {
       "id": "evt_2026_01_18_cmp08",
       "title": "CMP-08 Filing",
-      "description": "CMP-08 filing for Q3 2025-26.",
+      "description": "CMP-08 for Q3 25-26",
       "start": "2026-01-18T09:00:00+05:30",
       "end": "2026-01-18T09:30:00+05:30",
       "allDay": false,
@@ -108,9 +123,24 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_01_20_gstr_3b",
+      "id": "evt_2026_01_20_gstr3b",
       "title": "GSTR-3B Filing",
-      "description": "GSTR-3B monthly return (and related returns like GSTR-5A as applicable).",
+      "description": "GSTR-3B for Dec 25 (Monthly)",
+      "start": "2026-01-20T09:00:00+05:30",
+      "end": "2026-01-20T09:30:00+05:30",
+      "allDay": false,
+      "notifyBeforeMinutes": [
+        1440,
+        60,
+        10
+      ],
+      "location": "Office",
+      "colorHex": "#5B5DE6"
+    },
+    {
+      "id": "evt_2026_01_20_gstr5a",
+      "title": "GSTR-5A Filing",
+      "description": "GSTR-5A for Dec 25 (Monthly)",
       "start": "2026-01-20T09:00:00+05:30",
       "end": "2026-01-20T09:30:00+05:30",
       "allDay": false,
@@ -125,7 +155,7 @@
     {
       "id": "evt_2026_01_22_gstr3b_group_a",
       "title": "GSTR-3B (Quarterly) - Group A",
-      "description": "GSTR-3B quarterly filing for Q3 2025-26 (Group A).",
+      "description": "GSTR-3B quarterly for Q3 25-26 (Group A)",
       "start": "2026-01-22T09:00:00+05:30",
       "end": "2026-01-22T09:30:00+05:30",
       "allDay": false,
@@ -140,7 +170,7 @@
     {
       "id": "evt_2026_01_24_gstr3b_group_b",
       "title": "GSTR-3B (Quarterly) - Group B",
-      "description": "GSTR-3B quarterly filing for Q3 2025-26 (Group B).",
+      "description": "GSTR-3B quarterly for Q3 25-26 (Group B)",
       "start": "2026-01-24T09:00:00+05:30",
       "end": "2026-01-24T09:30:00+05:30",
       "allDay": false,
@@ -153,9 +183,9 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_01_25_pmt06",
+      "id": "evt_2026_01_25_gst_pmt06_qrmp",
       "title": "GST PMT-06 (QRMP)",
-      "description": "GST PMT-06 payment (QRMP).",
+      "description": "GST PMT-06 (QRMP) for January 26",
       "start": "2026-01-25T09:00:00+05:30",
       "end": "2026-01-25T09:30:00+05:30",
       "allDay": false,
@@ -168,9 +198,9 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_01_30_tcs_certificate",
+      "id": "evt_2026_01_30_tcs_certificate_q3",
       "title": "TCS Certificate Due",
-      "description": "TCS certificate due for Q3 2025-26.",
+      "description": "TCS Certificate Q3 25-26",
       "start": "2026-01-30T09:00:00+05:30",
       "end": "2026-01-30T09:30:00+05:30",
       "allDay": false,
@@ -183,9 +213,9 @@
       "colorHex": "#16A34A"
     },
     {
-      "id": "evt_2026_01_31_tds_return",
+      "id": "evt_2026_01_31_tds_return_q3",
       "title": "TDS Return Due",
-      "description": "TDS return due for Q3 2025-26.",
+      "description": "TDS Return Q3 25-26",
       "start": "2026-01-31T09:00:00+05:30",
       "end": "2026-01-31T09:30:00+05:30",
       "allDay": false,
@@ -200,7 +230,7 @@
     {
       "id": "evt_2026_02_07_tds_tcs_payment",
       "title": "TDS/TCS Payment Due",
-      "description": "TDS/TCS payment for January 2026",
+      "description": "TDS/TCS payment for January 26",
       "start": "2026-02-07T09:00:00+05:30",
       "end": "2026-02-07T09:30:00+05:30",
       "allDay": false,
@@ -215,7 +245,7 @@
     {
       "id": "evt_2026_02_10_gstr_7_8",
       "title": "GSTR 7/8 Filing",
-      "description": "GSTR 7/8 return for January 2026",
+      "description": "GSTR 7/8 return for January 26",
       "start": "2026-02-10T09:00:00+05:30",
       "end": "2026-02-10T09:30:00+05:30",
       "allDay": false,
@@ -228,9 +258,9 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_02_11_gstr_1",
+      "id": "evt_2026_02_11_gstr1_monthly",
       "title": "GSTR-1 Filing (Monthly)",
-      "description": "Monthly GSTR-1 filing for January 2026",
+      "description": "GSTR-1 monthly for January 26",
       "start": "2026-02-11T09:00:00+05:30",
       "end": "2026-02-11T09:30:00+05:30",
       "allDay": false,
@@ -243,9 +273,9 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_02_13_qrmp_iff",
-      "title": "QRMP / IFF Compliance",
-      "description": "IFF / QRMP-related compliance (as applicable).",
+      "id": "evt_2026_02_13_iff_qrmp",
+      "title": "IFF (QRMP)",
+      "description": "IFF filing for January 26 (QRMP)",
       "start": "2026-02-13T09:00:00+05:30",
       "end": "2026-02-13T09:30:00+05:30",
       "allDay": false,
@@ -258,11 +288,11 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_02_15_pf_esic",
-      "title": "PF / ESIC Payment",
-      "description": "PF/ESIC payment for January 2026",
-      "start": "2026-02-15T09:00:00+05:30",
-      "end": "2026-02-15T09:30:00+05:30",
+      "id": "evt_2026_02_13_gstr_5_6",
+      "title": "GSTR 5/6 Filing",
+      "description": "GSTR 5/6 return for January 26",
+      "start": "2026-02-13T09:00:00+05:30",
+      "end": "2026-02-13T09:30:00+05:30",
       "allDay": false,
       "notifyBeforeMinutes": [
         1440,
@@ -270,12 +300,12 @@
         10
       ],
       "location": "Office",
-      "colorHex": "#F59E0B"
+      "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_02_15_tds_certificate",
+      "id": "evt_2026_02_15_tds_certificate_q3",
       "title": "TDS Certificate Due",
-      "description": "TDS certificate due for Q3 2025-26.",
+      "description": "TDS Certificate Q3 25-26",
       "start": "2026-02-15T09:00:00+05:30",
       "end": "2026-02-15T09:30:00+05:30",
       "allDay": false,
@@ -288,9 +318,24 @@
       "colorHex": "#16A34A"
     },
     {
-      "id": "evt_2026_02_20_gstr_3b",
+      "id": "evt_2026_02_15_pf_esic",
+      "title": "PF/ESIC Payment",
+      "description": "PF/ESIC payment for January 26",
+      "start": "2026-02-15T09:00:00+05:30",
+      "end": "2026-02-15T09:30:00+05:30",
+      "allDay": false,
+      "notifyBeforeMinutes": [
+        1440,
+        60,
+        10
+      ],
+      "location": "Office",
+      "colorHex": "#F59E0B"
+    },
+    {
+      "id": "evt_2026_02_20_gstr3b",
       "title": "GSTR-3B Filing",
-      "description": "GSTR-3B monthly return (and related returns like GSTR-5A as applicable).",
+      "description": "GSTR-3B for January 26 (Monthly)",
       "start": "2026-02-20T09:00:00+05:30",
       "end": "2026-02-20T09:30:00+05:30",
       "allDay": false,
@@ -303,9 +348,24 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_02_25_pmt06",
+      "id": "evt_2026_02_20_gstr5a",
+      "title": "GSTR-5A Filing",
+      "description": "GSTR-5A for January 26 (Monthly)",
+      "start": "2026-02-20T09:00:00+05:30",
+      "end": "2026-02-20T09:30:00+05:30",
+      "allDay": false,
+      "notifyBeforeMinutes": [
+        1440,
+        60,
+        10
+      ],
+      "location": "Office",
+      "colorHex": "#5B5DE6"
+    },
+    {
+      "id": "evt_2026_02_25_gst_pmt06_qrmp",
       "title": "GST PMT-06 (QRMP)",
-      "description": "GST PMT-06 payment (QRMP).",
+      "description": "GST PMT-06 (QRMP) for February 26",
       "start": "2026-02-25T09:00:00+05:30",
       "end": "2026-02-25T09:30:00+05:30",
       "allDay": false,
@@ -320,7 +380,7 @@
     {
       "id": "evt_2026_03_07_tds_tcs_payment",
       "title": "TDS/TCS Payment Due",
-      "description": "TDS/TCS payment for February 2026",
+      "description": "TDS/TCS payment for February 26",
       "start": "2026-03-07T09:00:00+05:30",
       "end": "2026-03-07T09:30:00+05:30",
       "allDay": false,
@@ -335,7 +395,7 @@
     {
       "id": "evt_2026_03_10_gstr_7_8",
       "title": "GSTR 7/8 Filing",
-      "description": "GSTR 7/8 return for February 2026",
+      "description": "GSTR 7/8 return for February 26",
       "start": "2026-03-10T09:00:00+05:30",
       "end": "2026-03-10T09:30:00+05:30",
       "allDay": false,
@@ -348,9 +408,9 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_03_11_gstr_1",
+      "id": "evt_2026_03_11_gstr1_monthly",
       "title": "GSTR-1 Filing (Monthly)",
-      "description": "Monthly GSTR-1 filing for February 2026",
+      "description": "GSTR-1 monthly for February 26",
       "start": "2026-03-11T09:00:00+05:30",
       "end": "2026-03-11T09:30:00+05:30",
       "allDay": false,
@@ -363,9 +423,9 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_03_13_qrmp_iff",
-      "title": "QRMP / IFF Compliance",
-      "description": "IFF / QRMP-related compliance (as applicable).",
+      "id": "evt_2026_03_13_iff_qrmp",
+      "title": "IFF (QRMP)",
+      "description": "IFF filing for February 26 (QRMP)",
       "start": "2026-03-13T09:00:00+05:30",
       "end": "2026-03-13T09:30:00+05:30",
       "allDay": false,
@@ -378,9 +438,39 @@
       "colorHex": "#5B5DE6"
     },
     {
+      "id": "evt_2026_03_13_gstr_5_6",
+      "title": "GSTR 5/6 Filing",
+      "description": "GSTR 5/6 return for February 26",
+      "start": "2026-03-13T09:00:00+05:30",
+      "end": "2026-03-13T09:30:00+05:30",
+      "allDay": false,
+      "notifyBeforeMinutes": [
+        1440,
+        60,
+        10
+      ],
+      "location": "Office",
+      "colorHex": "#5B5DE6"
+    },
+    {
+      "id": "evt_2026_03_15_advance_tax_4th",
+      "title": "Advance Tax Installment",
+      "description": "Advance Tax 4th Installment (AY 26-27)",
+      "start": "2026-03-15T09:00:00+05:30",
+      "end": "2026-03-15T09:30:00+05:30",
+      "allDay": false,
+      "notifyBeforeMinutes": [
+        1440,
+        60,
+        10
+      ],
+      "location": "Office",
+      "colorHex": "#0EA5E9"
+    },
+    {
       "id": "evt_2026_03_15_pf_esic",
-      "title": "PF / ESIC Payment",
-      "description": "PF/ESIC payment for February 2026",
+      "title": "PF/ESIC Payment",
+      "description": "PF/ESIC payment for February 26",
       "start": "2026-03-15T09:00:00+05:30",
       "end": "2026-03-15T09:30:00+05:30",
       "allDay": false,
@@ -393,9 +483,24 @@
       "colorHex": "#F59E0B"
     },
     {
-      "id": "evt_2026_03_20_gstr_3b",
+      "id": "evt_2026_03_20_gstr3b",
       "title": "GSTR-3B Filing",
-      "description": "GSTR-3B monthly return (and related returns like GSTR-5A as applicable).",
+      "description": "GSTR-3B for February 26 (Monthly)",
+      "start": "2026-03-20T09:00:00+05:30",
+      "end": "2026-03-20T09:30:00+05:30",
+      "allDay": false,
+      "notifyBeforeMinutes": [
+        1440,
+        60,
+        10
+      ],
+      "location": "Office",
+      "colorHex": "#5B5DE6"
+    },
+    {
+      "id": "evt_2026_03_20_gstr5a",
+      "title": "GSTR-5A Filing",
+      "description": "GSTR-5A for February 26 (Monthly)",
       "start": "2026-03-20T09:00:00+05:30",
       "end": "2026-03-20T09:30:00+05:30",
       "allDay": false,
@@ -409,8 +514,8 @@
     },
     {
       "id": "evt_2026_04_07_tds_tcs_payment",
-      "title": "TDS/TCS Payment Due",
-      "description": "TDS/TCS payment for March 2026",
+      "title": "TCS Payment Due",
+      "description": "TCS payment for March 26",
       "start": "2026-04-07T09:00:00+05:30",
       "end": "2026-04-07T09:30:00+05:30",
       "allDay": false,
@@ -425,7 +530,7 @@
     {
       "id": "evt_2026_04_10_gstr_7_8",
       "title": "GSTR 7/8 Filing",
-      "description": "GSTR 7/8 return for March 2026",
+      "description": "GSTR 7/8 return for March 26",
       "start": "2026-04-10T09:00:00+05:30",
       "end": "2026-04-10T09:30:00+05:30",
       "allDay": false,
@@ -438,9 +543,9 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_04_11_gstr_1",
+      "id": "evt_2026_04_11_gstr1_monthly",
       "title": "GSTR-1 Filing (Monthly)",
-      "description": "Monthly GSTR-1 filing for March 2026",
+      "description": "GSTR-1 monthly for March 26",
       "start": "2026-04-11T09:00:00+05:30",
       "end": "2026-04-11T09:30:00+05:30",
       "allDay": false,
@@ -453,9 +558,24 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_04_13_qrmp_iff",
-      "title": "QRMP / IFF Compliance",
-      "description": "IFF / QRMP-related compliance (as applicable).",
+      "id": "evt_2026_04_13_gstr1_qrmp",
+      "title": "GSTR-1 (QRMP)",
+      "description": "GSTR-1 QRMP filing for Q4 25-26",
+      "start": "2026-04-13T09:00:00+05:30",
+      "end": "2026-04-13T09:30:00+05:30",
+      "allDay": false,
+      "notifyBeforeMinutes": [
+        1440,
+        60,
+        10
+      ],
+      "location": "Office",
+      "colorHex": "#5B5DE6"
+    },
+    {
+      "id": "evt_2026_04_13_gstr_5_6",
+      "title": "GSTR 5/6 Filing",
+      "description": "GSTR 5/6 return for March 26",
       "start": "2026-04-13T09:00:00+05:30",
       "end": "2026-04-13T09:30:00+05:30",
       "allDay": false,
@@ -469,8 +589,8 @@
     },
     {
       "id": "evt_2026_04_15_pf_esic",
-      "title": "PF / ESIC Payment",
-      "description": "PF/ESIC payment for March 2026",
+      "title": "PF/ESIC Payment",
+      "description": "PF/ESIC payment for March 26",
       "start": "2026-04-15T09:00:00+05:30",
       "end": "2026-04-15T09:30:00+05:30",
       "allDay": false,
@@ -483,24 +603,9 @@
       "colorHex": "#F59E0B"
     },
     {
-      "id": "evt_2026_04_15_tcs_return",
-      "title": "TCS Return Due",
-      "description": "TCS return due for Q4 2025-26.",
-      "start": "2026-04-15T09:00:00+05:30",
-      "end": "2026-04-15T09:30:00+05:30",
-      "allDay": false,
-      "notifyBeforeMinutes": [
-        1440,
-        60,
-        10
-      ],
-      "location": "Office",
-      "colorHex": "#16A34A"
-    },
-    {
       "id": "evt_2026_04_18_cmp08",
       "title": "CMP-08 Filing",
-      "description": "CMP-08 filing for Q4 2025-26.",
+      "description": "CMP-08 for Q4 25-26",
       "start": "2026-04-18T09:00:00+05:30",
       "end": "2026-04-18T09:30:00+05:30",
       "allDay": false,
@@ -513,9 +618,24 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_04_20_gstr_3b",
+      "id": "evt_2026_04_20_gstr3b",
       "title": "GSTR-3B Filing",
-      "description": "GSTR-3B monthly return (and related returns like GSTR-5A as applicable).",
+      "description": "GSTR-3B for March 26 (Monthly)",
+      "start": "2026-04-20T09:00:00+05:30",
+      "end": "2026-04-20T09:30:00+05:30",
+      "allDay": false,
+      "notifyBeforeMinutes": [
+        1440,
+        60,
+        10
+      ],
+      "location": "Office",
+      "colorHex": "#5B5DE6"
+    },
+    {
+      "id": "evt_2026_04_20_gstr5a",
+      "title": "GSTR-5A Filing",
+      "description": "GSTR-5A for March 26 (Monthly)",
       "start": "2026-04-20T09:00:00+05:30",
       "end": "2026-04-20T09:30:00+05:30",
       "allDay": false,
@@ -530,7 +650,7 @@
     {
       "id": "evt_2026_04_22_gstr3b_group_a",
       "title": "GSTR-3B (Quarterly) - Group A",
-      "description": "GSTR-3B quarterly filing for Q4 2025-26 (Group A).",
+      "description": "GSTR-3B quarterly for Q4 25-26 (Group A)",
       "start": "2026-04-22T09:00:00+05:30",
       "end": "2026-04-22T09:30:00+05:30",
       "allDay": false,
@@ -545,7 +665,7 @@
     {
       "id": "evt_2026_04_24_gstr3b_group_b",
       "title": "GSTR-3B (Quarterly) - Group B",
-      "description": "GSTR-3B quarterly filing for Q4 2025-26 (Group B).",
+      "description": "GSTR-3B quarterly for Q4 25-26 (Group B)",
       "start": "2026-04-24T09:00:00+05:30",
       "end": "2026-04-24T09:30:00+05:30",
       "allDay": false,
@@ -558,9 +678,9 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_04_25_pmt06",
+      "id": "evt_2026_04_25_gst_pmt06_qrmp",
       "title": "GST PMT-06 (QRMP)",
-      "description": "GST PMT-06 payment (QRMP).",
+      "description": "GST PMT-06 (QRMP) for April 26",
       "start": "2026-04-25T09:00:00+05:30",
       "end": "2026-04-25T09:30:00+05:30",
       "allDay": false,
@@ -573,9 +693,9 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_04_30_tcs_certificate",
-      "title": "TCS Certificate Due",
-      "description": "TCS certificate due for Q4 2025-26.",
+      "id": "evt_2026_04_30_tds_payment",
+      "title": "TDS Payment Due",
+      "description": "TDS payment for March 26",
       "start": "2026-04-30T09:00:00+05:30",
       "end": "2026-04-30T09:30:00+05:30",
       "allDay": false,
@@ -590,7 +710,7 @@
     {
       "id": "evt_2026_05_07_tds_tcs_payment",
       "title": "TDS/TCS Payment Due",
-      "description": "TDS/TCS payment for April 2026",
+      "description": "TDS/TCS payment for April 26",
       "start": "2026-05-07T09:00:00+05:30",
       "end": "2026-05-07T09:30:00+05:30",
       "allDay": false,
@@ -605,7 +725,7 @@
     {
       "id": "evt_2026_05_10_gstr_7_8",
       "title": "GSTR 7/8 Filing",
-      "description": "GSTR 7/8 return for April 2026",
+      "description": "GSTR 7/8 return for April 26",
       "start": "2026-05-10T09:00:00+05:30",
       "end": "2026-05-10T09:30:00+05:30",
       "allDay": false,
@@ -618,9 +738,9 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_05_11_gstr_1",
+      "id": "evt_2026_05_11_gstr1_monthly",
       "title": "GSTR-1 Filing (Monthly)",
-      "description": "Monthly GSTR-1 filing for April 2026",
+      "description": "GSTR-1 monthly for April 26",
       "start": "2026-05-11T09:00:00+05:30",
       "end": "2026-05-11T09:30:00+05:30",
       "allDay": false,
@@ -633,9 +753,9 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_05_13_qrmp_iff",
-      "title": "QRMP / IFF Compliance",
-      "description": "IFF / QRMP-related compliance (as applicable).",
+      "id": "evt_2026_05_13_iff_qrmp",
+      "title": "IFF (QRMP)",
+      "description": "IFF filing for April 26 (QRMP)",
       "start": "2026-05-13T09:00:00+05:30",
       "end": "2026-05-13T09:30:00+05:30",
       "allDay": false,
@@ -648,11 +768,11 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_05_15_pf_esic",
-      "title": "PF / ESIC Payment",
-      "description": "PF/ESIC payment for April 2026",
-      "start": "2026-05-15T09:00:00+05:30",
-      "end": "2026-05-15T09:30:00+05:30",
+      "id": "evt_2026_05_13_gstr_5_6",
+      "title": "GSTR 5/6 Filing",
+      "description": "GSTR 5/6 return for April 26",
+      "start": "2026-05-13T09:00:00+05:30",
+      "end": "2026-05-13T09:30:00+05:30",
       "allDay": false,
       "notifyBeforeMinutes": [
         1440,
@@ -660,12 +780,12 @@
         10
       ],
       "location": "Office",
-      "colorHex": "#F59E0B"
+      "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_05_15_tds_certificate",
-      "title": "TDS Certificate Due",
-      "description": "TDS certificate due for Q4 2025-26.",
+      "id": "evt_2026_05_15_tcs_return_q4",
+      "title": "TCS Return Due",
+      "description": "TCS Return Q4 25-26",
       "start": "2026-05-15T09:00:00+05:30",
       "end": "2026-05-15T09:30:00+05:30",
       "allDay": false,
@@ -678,9 +798,24 @@
       "colorHex": "#16A34A"
     },
     {
-      "id": "evt_2026_05_20_gstr_3b",
+      "id": "evt_2026_05_15_pf_esic",
+      "title": "PF/ESIC Payment",
+      "description": "PF/ESIC payment for April 26",
+      "start": "2026-05-15T09:00:00+05:30",
+      "end": "2026-05-15T09:30:00+05:30",
+      "allDay": false,
+      "notifyBeforeMinutes": [
+        1440,
+        60,
+        10
+      ],
+      "location": "Office",
+      "colorHex": "#F59E0B"
+    },
+    {
+      "id": "evt_2026_05_20_gstr3b",
       "title": "GSTR-3B Filing",
-      "description": "GSTR-3B monthly return (and related returns like GSTR-5A as applicable).",
+      "description": "GSTR-3B for April 26 (Monthly)",
       "start": "2026-05-20T09:00:00+05:30",
       "end": "2026-05-20T09:30:00+05:30",
       "allDay": false,
@@ -693,9 +828,24 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_05_25_pmt06",
+      "id": "evt_2026_05_20_gstr5a",
+      "title": "GSTR-5A Filing",
+      "description": "GSTR-5A for April 26 (Monthly)",
+      "start": "2026-05-20T09:00:00+05:30",
+      "end": "2026-05-20T09:30:00+05:30",
+      "allDay": false,
+      "notifyBeforeMinutes": [
+        1440,
+        60,
+        10
+      ],
+      "location": "Office",
+      "colorHex": "#5B5DE6"
+    },
+    {
+      "id": "evt_2026_05_25_gst_pmt06_qrmp",
       "title": "GST PMT-06 (QRMP)",
-      "description": "GST PMT-06 payment (QRMP).",
+      "description": "GST PMT-06 (QRMP) for May 26",
       "start": "2026-05-25T09:00:00+05:30",
       "end": "2026-05-25T09:30:00+05:30",
       "allDay": false,
@@ -708,9 +858,24 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_05_31_tds_return",
+      "id": "evt_2026_05_30_tcs_certificate_q4",
+      "title": "TCS Certificate Due",
+      "description": "TCS Certificate Q4 25-26",
+      "start": "2026-05-30T09:00:00+05:30",
+      "end": "2026-05-30T09:30:00+05:30",
+      "allDay": false,
+      "notifyBeforeMinutes": [
+        1440,
+        60,
+        10
+      ],
+      "location": "Office",
+      "colorHex": "#16A34A"
+    },
+    {
+      "id": "evt_2026_05_31_tds_return_q4",
       "title": "TDS Return Due",
-      "description": "TDS return due for Q4 2025-26.",
+      "description": "TDS Return Q4 25-26",
       "start": "2026-05-31T09:00:00+05:30",
       "end": "2026-05-31T09:30:00+05:30",
       "allDay": false,
@@ -725,7 +890,7 @@
     {
       "id": "evt_2026_06_07_tds_tcs_payment",
       "title": "TDS/TCS Payment Due",
-      "description": "TDS/TCS payment for May 2026",
+      "description": "TDS/TCS payment for May 26",
       "start": "2026-06-07T09:00:00+05:30",
       "end": "2026-06-07T09:30:00+05:30",
       "allDay": false,
@@ -740,7 +905,7 @@
     {
       "id": "evt_2026_06_10_gstr_7_8",
       "title": "GSTR 7/8 Filing",
-      "description": "GSTR 7/8 return for May 2026",
+      "description": "GSTR 7/8 return for May 26",
       "start": "2026-06-10T09:00:00+05:30",
       "end": "2026-06-10T09:30:00+05:30",
       "allDay": false,
@@ -753,9 +918,9 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_06_11_gstr_1",
+      "id": "evt_2026_06_11_gstr1_monthly",
       "title": "GSTR-1 Filing (Monthly)",
-      "description": "Monthly GSTR-1 filing for May 2026",
+      "description": "GSTR-1 monthly for May 26",
       "start": "2026-06-11T09:00:00+05:30",
       "end": "2026-06-11T09:30:00+05:30",
       "allDay": false,
@@ -768,9 +933,9 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_06_13_qrmp_iff",
-      "title": "QRMP / IFF Compliance",
-      "description": "IFF / QRMP-related compliance (as applicable).",
+      "id": "evt_2026_06_13_iff_qrmp",
+      "title": "IFF (QRMP)",
+      "description": "IFF filing for May 26 (QRMP)",
       "start": "2026-06-13T09:00:00+05:30",
       "end": "2026-06-13T09:30:00+05:30",
       "allDay": false,
@@ -783,9 +948,24 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_06_15_pf_esic",
-      "title": "PF / ESIC Payment",
-      "description": "PF/ESIC payment for May 2026",
+      "id": "evt_2026_06_13_gstr_5_6",
+      "title": "GSTR 5/6 Filing",
+      "description": "GSTR 5/6 return for May 26",
+      "start": "2026-06-13T09:00:00+05:30",
+      "end": "2026-06-13T09:30:00+05:30",
+      "allDay": false,
+      "notifyBeforeMinutes": [
+        1440,
+        60,
+        10
+      ],
+      "location": "Office",
+      "colorHex": "#5B5DE6"
+    },
+    {
+      "id": "evt_2026_06_15_tds_certificate_q4",
+      "title": "TDS Certificate Due",
+      "description": "TDS Certificate Q4 25-26",
       "start": "2026-06-15T09:00:00+05:30",
       "end": "2026-06-15T09:30:00+05:30",
       "allDay": false,
@@ -795,12 +975,12 @@
         10
       ],
       "location": "Office",
-      "colorHex": "#F59E0B"
+      "colorHex": "#16A34A"
     },
     {
-      "id": "evt_2026_06_15_advance_tax",
+      "id": "evt_2026_06_15_advance_tax_1st",
       "title": "Advance Tax Installment",
-      "description": "1st Installment advance tax installment (AY 2027-28 timeline as per calendar).",
+      "description": "Advance Tax 1st Installment (AY 27-28)",
       "start": "2026-06-15T09:00:00+05:30",
       "end": "2026-06-15T09:30:00+05:30",
       "allDay": false,
@@ -813,9 +993,39 @@
       "colorHex": "#0EA5E9"
     },
     {
-      "id": "evt_2026_06_20_gstr_3b",
+      "id": "evt_2026_06_15_pf_esic",
+      "title": "PF/ESIC Payment",
+      "description": "PF/ESIC payment for May 26",
+      "start": "2026-06-15T09:00:00+05:30",
+      "end": "2026-06-15T09:30:00+05:30",
+      "allDay": false,
+      "notifyBeforeMinutes": [
+        1440,
+        60,
+        10
+      ],
+      "location": "Office",
+      "colorHex": "#F59E0B"
+    },
+    {
+      "id": "evt_2026_06_20_gstr3b",
       "title": "GSTR-3B Filing",
-      "description": "GSTR-3B monthly return (and related returns like GSTR-5A as applicable).",
+      "description": "GSTR-3B for May 26 (Monthly)",
+      "start": "2026-06-20T09:00:00+05:30",
+      "end": "2026-06-20T09:30:00+05:30",
+      "allDay": false,
+      "notifyBeforeMinutes": [
+        1440,
+        60,
+        10
+      ],
+      "location": "Office",
+      "colorHex": "#5B5DE6"
+    },
+    {
+      "id": "evt_2026_06_20_gstr5a",
+      "title": "GSTR-5A Filing",
+      "description": "GSTR-5A for May 26 (Monthly)",
       "start": "2026-06-20T09:00:00+05:30",
       "end": "2026-06-20T09:30:00+05:30",
       "allDay": false,
@@ -830,7 +1040,7 @@
     {
       "id": "evt_2026_06_30_equalisation_levy",
       "title": "Equalisation Levy Statement",
-      "description": "Equalisation levy statement (FY 2025-26).",
+      "description": "Equalisation Levy Statement FY 25-26",
       "start": "2026-06-30T09:00:00+05:30",
       "end": "2026-06-30T09:30:00+05:30",
       "allDay": false,
@@ -845,7 +1055,7 @@
     {
       "id": "evt_2026_06_30_gstr4",
       "title": "GSTR-4 Filing",
-      "description": "GSTR-4 annual return (FY 2025-26).",
+      "description": "GSTR-4 FY 25-26",
       "start": "2026-06-30T09:00:00+05:30",
       "end": "2026-06-30T09:30:00+05:30",
       "allDay": false,
@@ -860,7 +1070,7 @@
     {
       "id": "evt_2026_06_30_dir3_kyc",
       "title": "DIR-3 KYC",
-      "description": "DIR-3 KYC compliance.",
+      "description": "DIR-3 KYC",
       "start": "2026-06-30T09:00:00+05:30",
       "end": "2026-06-30T09:30:00+05:30",
       "allDay": false,
@@ -875,7 +1085,7 @@
     {
       "id": "evt_2026_07_07_tds_tcs_payment",
       "title": "TDS/TCS Payment Due",
-      "description": "TDS/TCS payment for June 2026",
+      "description": "TDS/TCS payment for June 26",
       "start": "2026-07-07T09:00:00+05:30",
       "end": "2026-07-07T09:30:00+05:30",
       "allDay": false,
@@ -890,7 +1100,7 @@
     {
       "id": "evt_2026_07_10_gstr_7_8",
       "title": "GSTR 7/8 Filing",
-      "description": "GSTR 7/8 return for June 2026",
+      "description": "GSTR 7/8 return for June 26",
       "start": "2026-07-10T09:00:00+05:30",
       "end": "2026-07-10T09:30:00+05:30",
       "allDay": false,
@@ -903,9 +1113,9 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_07_11_gstr_1",
+      "id": "evt_2026_07_11_gstr1_monthly",
       "title": "GSTR-1 Filing (Monthly)",
-      "description": "Monthly GSTR-1 filing for June 2026",
+      "description": "GSTR-1 monthly for June 26",
       "start": "2026-07-11T09:00:00+05:30",
       "end": "2026-07-11T09:30:00+05:30",
       "allDay": false,
@@ -918,9 +1128,9 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_07_13_qrmp_iff",
-      "title": "QRMP / IFF Compliance",
-      "description": "IFF / QRMP-related compliance (as applicable).",
+      "id": "evt_2026_07_13_gstr1_qrmp",
+      "title": "GSTR-1 (QRMP)",
+      "description": "GSTR-1 QRMP filing for Q1 26-27",
       "start": "2026-07-13T09:00:00+05:30",
       "end": "2026-07-13T09:30:00+05:30",
       "allDay": false,
@@ -933,11 +1143,11 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_07_15_pf_esic",
-      "title": "PF / ESIC Payment",
-      "description": "PF/ESIC payment for June 2026",
-      "start": "2026-07-15T09:00:00+05:30",
-      "end": "2026-07-15T09:30:00+05:30",
+      "id": "evt_2026_07_13_gstr_5_6",
+      "title": "GSTR 5/6 Filing",
+      "description": "GSTR 5/6 return for June 26",
+      "start": "2026-07-13T09:00:00+05:30",
+      "end": "2026-07-13T09:30:00+05:30",
       "allDay": false,
       "notifyBeforeMinutes": [
         1440,
@@ -945,12 +1155,12 @@
         10
       ],
       "location": "Office",
-      "colorHex": "#F59E0B"
+      "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_07_15_tcs_return",
+      "id": "evt_2026_07_15_tcs_return_q1",
       "title": "TCS Return Due",
-      "description": "TCS return due for Q1 2026-27.",
+      "description": "TCS Return Q1 26-27",
       "start": "2026-07-15T09:00:00+05:30",
       "end": "2026-07-15T09:30:00+05:30",
       "allDay": false,
@@ -963,9 +1173,24 @@
       "colorHex": "#16A34A"
     },
     {
+      "id": "evt_2026_07_15_pf_esic",
+      "title": "PF/ESIC Payment",
+      "description": "PF/ESIC payment for June 26",
+      "start": "2026-07-15T09:00:00+05:30",
+      "end": "2026-07-15T09:30:00+05:30",
+      "allDay": false,
+      "notifyBeforeMinutes": [
+        1440,
+        60,
+        10
+      ],
+      "location": "Office",
+      "colorHex": "#F59E0B"
+    },
+    {
       "id": "evt_2026_07_18_cmp08",
       "title": "CMP-08 Filing",
-      "description": "CMP-08 filing for Q1 2026-27.",
+      "description": "CMP-08 for Q1 26-27",
       "start": "2026-07-18T09:00:00+05:30",
       "end": "2026-07-18T09:30:00+05:30",
       "allDay": false,
@@ -978,9 +1203,24 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_07_20_gstr_3b",
+      "id": "evt_2026_07_20_gstr3b",
       "title": "GSTR-3B Filing",
-      "description": "GSTR-3B monthly return (and related returns like GSTR-5A as applicable).",
+      "description": "GSTR-3B for June 26 (Monthly)",
+      "start": "2026-07-20T09:00:00+05:30",
+      "end": "2026-07-20T09:30:00+05:30",
+      "allDay": false,
+      "notifyBeforeMinutes": [
+        1440,
+        60,
+        10
+      ],
+      "location": "Office",
+      "colorHex": "#5B5DE6"
+    },
+    {
+      "id": "evt_2026_07_20_gstr5a",
+      "title": "GSTR-5A Filing",
+      "description": "GSTR-5A for June 26 (Monthly)",
       "start": "2026-07-20T09:00:00+05:30",
       "end": "2026-07-20T09:30:00+05:30",
       "allDay": false,
@@ -995,7 +1235,7 @@
     {
       "id": "evt_2026_07_22_gstr3b_group_a",
       "title": "GSTR-3B (Quarterly) - Group A",
-      "description": "GSTR-3B quarterly filing for Q1 2026-27 (Group A).",
+      "description": "GSTR-3B quarterly for Q1 26-27 (Group A)",
       "start": "2026-07-22T09:00:00+05:30",
       "end": "2026-07-22T09:30:00+05:30",
       "allDay": false,
@@ -1010,7 +1250,7 @@
     {
       "id": "evt_2026_07_24_gstr3b_group_b",
       "title": "GSTR-3B (Quarterly) - Group B",
-      "description": "GSTR-3B quarterly filing for Q1 2026-27 (Group B).",
+      "description": "GSTR-3B quarterly for Q1 26-27 (Group B)",
       "start": "2026-07-24T09:00:00+05:30",
       "end": "2026-07-24T09:30:00+05:30",
       "allDay": false,
@@ -1023,24 +1263,9 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_07_25_pmt06",
-      "title": "GST PMT-06 (QRMP)",
-      "description": "GST PMT-06 payment (QRMP).",
-      "start": "2026-07-25T09:00:00+05:30",
-      "end": "2026-07-25T09:30:00+05:30",
-      "allDay": false,
-      "notifyBeforeMinutes": [
-        1440,
-        60,
-        10
-      ],
-      "location": "Office",
-      "colorHex": "#5B5DE6"
-    },
-    {
-      "id": "evt_2026_07_30_tcs_certificate",
+      "id": "evt_2026_07_30_tcs_certificate_q1",
       "title": "TCS Certificate Due",
-      "description": "TCS certificate due for Q1 2026-27.",
+      "description": "TCS Certificate Q1 26-27",
       "start": "2026-07-30T09:00:00+05:30",
       "end": "2026-07-30T09:30:00+05:30",
       "allDay": false,
@@ -1053,9 +1278,9 @@
       "colorHex": "#16A34A"
     },
     {
-      "id": "evt_2026_07_31_tds_return",
+      "id": "evt_2026_07_31_tds_return_q1",
       "title": "TDS Return Due",
-      "description": "TDS return due for Q1 2026-27.",
+      "description": "TDS Return Q1 26-27",
       "start": "2026-07-31T09:00:00+05:30",
       "end": "2026-07-31T09:30:00+05:30",
       "allDay": false,
@@ -1070,7 +1295,7 @@
     {
       "id": "evt_2026_07_31_itr_non_audit",
       "title": "ITR Due (Non-Audit)",
-      "description": "ITR due for non-audit cases (AY 2026-27).",
+      "description": "ITR AY 26-27 Non-Audit",
       "start": "2026-07-31T09:00:00+05:30",
       "end": "2026-07-31T09:30:00+05:30",
       "allDay": false,
@@ -1085,7 +1310,7 @@
     {
       "id": "evt_2026_08_07_tds_tcs_payment",
       "title": "TDS/TCS Payment Due",
-      "description": "TDS/TCS payment for July 2026",
+      "description": "TDS/TCS payment for July 26",
       "start": "2026-08-07T09:00:00+05:30",
       "end": "2026-08-07T09:30:00+05:30",
       "allDay": false,
@@ -1100,7 +1325,7 @@
     {
       "id": "evt_2026_08_10_gstr_7_8",
       "title": "GSTR 7/8 Filing",
-      "description": "GSTR 7/8 return for July 2026",
+      "description": "GSTR 7/8 return for July 26",
       "start": "2026-08-10T09:00:00+05:30",
       "end": "2026-08-10T09:30:00+05:30",
       "allDay": false,
@@ -1113,9 +1338,9 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_08_11_gstr_1",
+      "id": "evt_2026_08_11_gstr1_monthly",
       "title": "GSTR-1 Filing (Monthly)",
-      "description": "Monthly GSTR-1 filing for July 2026",
+      "description": "GSTR-1 monthly for July 26",
       "start": "2026-08-11T09:00:00+05:30",
       "end": "2026-08-11T09:30:00+05:30",
       "allDay": false,
@@ -1128,9 +1353,9 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_08_13_qrmp_iff",
-      "title": "QRMP / IFF Compliance",
-      "description": "IFF / QRMP-related compliance (as applicable).",
+      "id": "evt_2026_08_13_iff_qrmp",
+      "title": "IFF (QRMP)",
+      "description": "IFF filing for July 26 (QRMP)",
       "start": "2026-08-13T09:00:00+05:30",
       "end": "2026-08-13T09:30:00+05:30",
       "allDay": false,
@@ -1143,11 +1368,11 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_08_15_pf_esic",
-      "title": "PF / ESIC Payment",
-      "description": "PF/ESIC payment for July 2026",
-      "start": "2026-08-15T09:00:00+05:30",
-      "end": "2026-08-15T09:30:00+05:30",
+      "id": "evt_2026_08_13_gstr_5_6",
+      "title": "GSTR 5/6 Filing",
+      "description": "GSTR 5/6 return for July 26",
+      "start": "2026-08-13T09:00:00+05:30",
+      "end": "2026-08-13T09:30:00+05:30",
       "allDay": false,
       "notifyBeforeMinutes": [
         1440,
@@ -1155,12 +1380,12 @@
         10
       ],
       "location": "Office",
-      "colorHex": "#F59E0B"
+      "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_08_15_tds_certificate",
+      "id": "evt_2026_08_15_tds_certificate_q1",
       "title": "TDS Certificate Due",
-      "description": "TDS certificate due for Q1 2026-27.",
+      "description": "TDS Certificate Q1 26-27",
       "start": "2026-08-15T09:00:00+05:30",
       "end": "2026-08-15T09:30:00+05:30",
       "allDay": false,
@@ -1173,9 +1398,24 @@
       "colorHex": "#16A34A"
     },
     {
-      "id": "evt_2026_08_20_gstr_3b",
+      "id": "evt_2026_08_15_pf_esic",
+      "title": "PF/ESIC Payment",
+      "description": "PF/ESIC payment for July 26",
+      "start": "2026-08-15T09:00:00+05:30",
+      "end": "2026-08-15T09:30:00+05:30",
+      "allDay": false,
+      "notifyBeforeMinutes": [
+        1440,
+        60,
+        10
+      ],
+      "location": "Office",
+      "colorHex": "#F59E0B"
+    },
+    {
+      "id": "evt_2026_08_20_gstr3b",
       "title": "GSTR-3B Filing",
-      "description": "GSTR-3B monthly return (and related returns like GSTR-5A as applicable).",
+      "description": "GSTR-3B for July 26 (Monthly)",
       "start": "2026-08-20T09:00:00+05:30",
       "end": "2026-08-20T09:30:00+05:30",
       "allDay": false,
@@ -1188,9 +1428,24 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_08_25_pmt06",
+      "id": "evt_2026_08_20_gstr5a",
+      "title": "GSTR-5A Filing",
+      "description": "GSTR-5A for July 26 (Monthly)",
+      "start": "2026-08-20T09:00:00+05:30",
+      "end": "2026-08-20T09:30:00+05:30",
+      "allDay": false,
+      "notifyBeforeMinutes": [
+        1440,
+        60,
+        10
+      ],
+      "location": "Office",
+      "colorHex": "#5B5DE6"
+    },
+    {
+      "id": "evt_2026_08_25_gst_pmt06_qrmp",
       "title": "GST PMT-06 (QRMP)",
-      "description": "GST PMT-06 payment (QRMP).",
+      "description": "GST PMT-06 (QRMP) for July 26",
       "start": "2026-08-25T09:00:00+05:30",
       "end": "2026-08-25T09:30:00+05:30",
       "allDay": false,
@@ -1205,7 +1460,7 @@
     {
       "id": "evt_2026_09_07_tds_tcs_payment",
       "title": "TDS/TCS Payment Due",
-      "description": "TDS/TCS payment for August 2026",
+      "description": "TDS/TCS payment for August 26",
       "start": "2026-09-07T09:00:00+05:30",
       "end": "2026-09-07T09:30:00+05:30",
       "allDay": false,
@@ -1220,7 +1475,7 @@
     {
       "id": "evt_2026_09_10_gstr_7_8",
       "title": "GSTR 7/8 Filing",
-      "description": "GSTR 7/8 return for August 2026",
+      "description": "GSTR 7/8 return for August 26",
       "start": "2026-09-10T09:00:00+05:30",
       "end": "2026-09-10T09:30:00+05:30",
       "allDay": false,
@@ -1233,9 +1488,9 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_09_11_gstr_1",
+      "id": "evt_2026_09_11_gstr1_monthly",
       "title": "GSTR-1 Filing (Monthly)",
-      "description": "Monthly GSTR-1 filing for August 2026",
+      "description": "GSTR-1 monthly for August 26",
       "start": "2026-09-11T09:00:00+05:30",
       "end": "2026-09-11T09:30:00+05:30",
       "allDay": false,
@@ -1248,9 +1503,9 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_09_13_qrmp_iff",
-      "title": "QRMP / IFF Compliance",
-      "description": "IFF / QRMP-related compliance (as applicable).",
+      "id": "evt_2026_09_13_iff_qrmp",
+      "title": "IFF (QRMP)",
+      "description": "IFF filing for August 26 (QRMP)",
       "start": "2026-09-13T09:00:00+05:30",
       "end": "2026-09-13T09:30:00+05:30",
       "allDay": false,
@@ -1263,11 +1518,11 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_09_15_pf_esic",
-      "title": "PF / ESIC Payment",
-      "description": "PF/ESIC payment for August 2026",
-      "start": "2026-09-15T09:00:00+05:30",
-      "end": "2026-09-15T09:30:00+05:30",
+      "id": "evt_2026_09_13_gstr_5_6",
+      "title": "GSTR 5/6 Filing",
+      "description": "GSTR 5/6 return for August 26",
+      "start": "2026-09-13T09:00:00+05:30",
+      "end": "2026-09-13T09:30:00+05:30",
       "allDay": false,
       "notifyBeforeMinutes": [
         1440,
@@ -1275,12 +1530,12 @@
         10
       ],
       "location": "Office",
-      "colorHex": "#F59E0B"
+      "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_09_15_advance_tax",
+      "id": "evt_2026_09_15_advance_tax_2nd",
       "title": "Advance Tax Installment",
-      "description": "2nd Installment advance tax installment (AY 2027-28 timeline as per calendar).",
+      "description": "Advance Tax 2nd Installment (AY 27-28)",
       "start": "2026-09-15T09:00:00+05:30",
       "end": "2026-09-15T09:30:00+05:30",
       "allDay": false,
@@ -1293,9 +1548,24 @@
       "colorHex": "#0EA5E9"
     },
     {
-      "id": "evt_2026_09_20_gstr_3b",
+      "id": "evt_2026_09_15_pf_esic",
+      "title": "PF/ESIC Payment",
+      "description": "PF/ESIC payment for August 26",
+      "start": "2026-09-15T09:00:00+05:30",
+      "end": "2026-09-15T09:30:00+05:30",
+      "allDay": false,
+      "notifyBeforeMinutes": [
+        1440,
+        60,
+        10
+      ],
+      "location": "Office",
+      "colorHex": "#F59E0B"
+    },
+    {
+      "id": "evt_2026_09_20_gstr3b",
       "title": "GSTR-3B Filing",
-      "description": "GSTR-3B monthly return (and related returns like GSTR-5A as applicable).",
+      "description": "GSTR-3B for August 26 (Monthly)",
       "start": "2026-09-20T09:00:00+05:30",
       "end": "2026-09-20T09:30:00+05:30",
       "allDay": false,
@@ -1308,9 +1578,39 @@
       "colorHex": "#5B5DE6"
     },
     {
+      "id": "evt_2026_09_20_gstr5a",
+      "title": "GSTR-5A Filing",
+      "description": "GSTR-5A for August 26 (Monthly)",
+      "start": "2026-09-20T09:00:00+05:30",
+      "end": "2026-09-20T09:30:00+05:30",
+      "allDay": false,
+      "notifyBeforeMinutes": [
+        1440,
+        60,
+        10
+      ],
+      "location": "Office",
+      "colorHex": "#5B5DE6"
+    },
+    {
+      "id": "evt_2026_09_25_gst_pmt06_qrmp",
+      "title": "GST PMT-06 (QRMP)",
+      "description": "GST PMT-06 (QRMP) for Aug 26",
+      "start": "2026-09-25T09:00:00+05:30",
+      "end": "2026-09-25T09:30:00+05:30",
+      "allDay": false,
+      "notifyBeforeMinutes": [
+        1440,
+        60,
+        10
+      ],
+      "location": "Office",
+      "colorHex": "#5B5DE6"
+    },
+    {
       "id": "evt_2026_09_30_tax_audit",
       "title": "Tax Audit Due",
-      "description": "Tax Audit due (AY 2026-27).",
+      "description": "Tax Audit AY 26-27",
       "start": "2026-09-30T09:00:00+05:30",
       "end": "2026-09-30T09:30:00+05:30",
       "allDay": false,
@@ -1325,7 +1625,7 @@
     {
       "id": "evt_2026_10_07_tds_tcs_payment",
       "title": "TDS/TCS Payment Due",
-      "description": "TDS/TCS payment for September 2026",
+      "description": "TDS/TCS payment for Sept 26",
       "start": "2026-10-07T09:00:00+05:30",
       "end": "2026-10-07T09:30:00+05:30",
       "allDay": false,
@@ -1340,7 +1640,7 @@
     {
       "id": "evt_2026_10_10_gstr_7_8",
       "title": "GSTR 7/8 Filing",
-      "description": "GSTR 7/8 return for September 2026",
+      "description": "GSTR 7/8 return for Sept 26",
       "start": "2026-10-10T09:00:00+05:30",
       "end": "2026-10-10T09:30:00+05:30",
       "allDay": false,
@@ -1353,9 +1653,9 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_10_11_gstr_1",
+      "id": "evt_2026_10_11_gstr1_monthly",
       "title": "GSTR-1 Filing (Monthly)",
-      "description": "Monthly GSTR-1 filing for September 2026",
+      "description": "GSTR-1 monthly for Sept 26",
       "start": "2026-10-11T09:00:00+05:30",
       "end": "2026-10-11T09:30:00+05:30",
       "allDay": false,
@@ -1368,9 +1668,9 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_10_13_qrmp_iff",
-      "title": "QRMP / IFF Compliance",
-      "description": "IFF / QRMP-related compliance (as applicable).",
+      "id": "evt_2026_10_13_gstr1_qrmp",
+      "title": "GSTR-1 (QRMP)",
+      "description": "GSTR-1 QRMP filing for Q2 26-27",
       "start": "2026-10-13T09:00:00+05:30",
       "end": "2026-10-13T09:30:00+05:30",
       "allDay": false,
@@ -1383,11 +1683,11 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_10_15_pf_esic",
-      "title": "PF / ESIC Payment",
-      "description": "PF/ESIC payment for September 2026",
-      "start": "2026-10-15T09:00:00+05:30",
-      "end": "2026-10-15T09:30:00+05:30",
+      "id": "evt_2026_10_13_gstr_5_6",
+      "title": "GSTR 5/6 Filing",
+      "description": "GSTR 5/6 return for Sept 26",
+      "start": "2026-10-13T09:00:00+05:30",
+      "end": "2026-10-13T09:30:00+05:30",
       "allDay": false,
       "notifyBeforeMinutes": [
         1440,
@@ -1395,12 +1695,12 @@
         10
       ],
       "location": "Office",
-      "colorHex": "#F59E0B"
+      "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_10_15_tcs_return",
+      "id": "evt_2026_10_15_tcs_return_q2",
       "title": "TCS Return Due",
-      "description": "TCS return due for Q2 2026-27.",
+      "description": "TCS Return Q2 26-27",
       "start": "2026-10-15T09:00:00+05:30",
       "end": "2026-10-15T09:30:00+05:30",
       "allDay": false,
@@ -1413,9 +1713,24 @@
       "colorHex": "#16A34A"
     },
     {
+      "id": "evt_2026_10_15_pf_esic",
+      "title": "PF/ESIC Payment",
+      "description": "PF/ESIC payment for Sept 26",
+      "start": "2026-10-15T09:00:00+05:30",
+      "end": "2026-10-15T09:30:00+05:30",
+      "allDay": false,
+      "notifyBeforeMinutes": [
+        1440,
+        60,
+        10
+      ],
+      "location": "Office",
+      "colorHex": "#F59E0B"
+    },
+    {
       "id": "evt_2026_10_18_cmp08",
       "title": "CMP-08 Filing",
-      "description": "CMP-08 filing for Q2 2026-27.",
+      "description": "CMP-08 for Q2 26-27",
       "start": "2026-10-18T09:00:00+05:30",
       "end": "2026-10-18T09:30:00+05:30",
       "allDay": false,
@@ -1428,9 +1743,24 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_10_20_gstr_3b",
+      "id": "evt_2026_10_20_gstr3b",
       "title": "GSTR-3B Filing",
-      "description": "GSTR-3B monthly return (and related returns like GSTR-5A as applicable).",
+      "description": "GSTR-3B for Sept 26 (Monthly)",
+      "start": "2026-10-20T09:00:00+05:30",
+      "end": "2026-10-20T09:30:00+05:30",
+      "allDay": false,
+      "notifyBeforeMinutes": [
+        1440,
+        60,
+        10
+      ],
+      "location": "Office",
+      "colorHex": "#5B5DE6"
+    },
+    {
+      "id": "evt_2026_10_20_gstr5a",
+      "title": "GSTR-5A Filing",
+      "description": "GSTR-5A for Sept 26 (Monthly)",
       "start": "2026-10-20T09:00:00+05:30",
       "end": "2026-10-20T09:30:00+05:30",
       "allDay": false,
@@ -1445,7 +1775,7 @@
     {
       "id": "evt_2026_10_22_gstr3b_group_a",
       "title": "GSTR-3B (Quarterly) - Group A",
-      "description": "GSTR-3B quarterly filing for Q2 2026-27 (Group A).",
+      "description": "GSTR-3B quarterly for Q2 26-27 (Group A)",
       "start": "2026-10-22T09:00:00+05:30",
       "end": "2026-10-22T09:30:00+05:30",
       "allDay": false,
@@ -1460,7 +1790,7 @@
     {
       "id": "evt_2026_10_24_gstr3b_group_b",
       "title": "GSTR-3B (Quarterly) - Group B",
-      "description": "GSTR-3B quarterly filing for Q2 2026-27 (Group B).",
+      "description": "GSTR-3B quarterly for Q2 26-27 (Group B)",
       "start": "2026-10-24T09:00:00+05:30",
       "end": "2026-10-24T09:30:00+05:30",
       "allDay": false,
@@ -1473,24 +1803,9 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_10_25_pmt06",
-      "title": "GST PMT-06 (QRMP)",
-      "description": "GST PMT-06 payment (QRMP).",
-      "start": "2026-10-25T09:00:00+05:30",
-      "end": "2026-10-25T09:30:00+05:30",
-      "allDay": false,
-      "notifyBeforeMinutes": [
-        1440,
-        60,
-        10
-      ],
-      "location": "Office",
-      "colorHex": "#5B5DE6"
-    },
-    {
-      "id": "evt_2026_10_30_tcs_certificate",
+      "id": "evt_2026_10_30_tcs_certificate_q2",
       "title": "TCS Certificate Due",
-      "description": "TCS certificate due for Q2 2026-27.",
+      "description": "TCS Certificate Q2 26-27",
       "start": "2026-10-30T09:00:00+05:30",
       "end": "2026-10-30T09:30:00+05:30",
       "allDay": false,
@@ -1503,9 +1818,9 @@
       "colorHex": "#16A34A"
     },
     {
-      "id": "evt_2026_10_31_tds_return",
+      "id": "evt_2026_10_31_tds_return_q2",
       "title": "TDS Return Due",
-      "description": "TDS return due for Q2 2026-27.",
+      "description": "TDS Return Q2 26-27",
       "start": "2026-10-31T09:00:00+05:30",
       "end": "2026-10-31T09:30:00+05:30",
       "allDay": false,
@@ -1520,7 +1835,7 @@
     {
       "id": "evt_2026_10_31_itr_audit",
       "title": "ITR Due (Audit)",
-      "description": "ITR due for audit cases (AY 2026-27).",
+      "description": "ITR (Audit) AY 26-27",
       "start": "2026-10-31T09:00:00+05:30",
       "end": "2026-10-31T09:30:00+05:30",
       "allDay": false,
@@ -1533,9 +1848,9 @@
       "colorHex": "#EF4444"
     },
     {
-      "id": "evt_2026_10_31_tp_audit",
+      "id": "evt_2026_10_31_transfer_pricing_audit",
       "title": "Transfer Pricing Audit",
-      "description": "Transfer pricing audit / related ITR compliance (AY 2026-27).",
+      "description": "Trnsfr Prcing Audit AY 26-27",
       "start": "2026-10-31T09:00:00+05:30",
       "end": "2026-10-31T09:30:00+05:30",
       "allDay": false,
@@ -1550,7 +1865,7 @@
     {
       "id": "evt_2026_11_07_tds_tcs_payment",
       "title": "TDS/TCS Payment Due",
-      "description": "TDS/TCS payment for October 2026",
+      "description": "TDS/TCS payment for Oct 26",
       "start": "2026-11-07T09:00:00+05:30",
       "end": "2026-11-07T09:30:00+05:30",
       "allDay": false,
@@ -1565,7 +1880,7 @@
     {
       "id": "evt_2026_11_10_gstr_7_8",
       "title": "GSTR 7/8 Filing",
-      "description": "GSTR 7/8 return for October 2026",
+      "description": "GSTR 7/8 return for Oct 26",
       "start": "2026-11-10T09:00:00+05:30",
       "end": "2026-11-10T09:30:00+05:30",
       "allDay": false,
@@ -1578,9 +1893,9 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_11_11_gstr_1",
+      "id": "evt_2026_11_11_gstr1_monthly",
       "title": "GSTR-1 Filing (Monthly)",
-      "description": "Monthly GSTR-1 filing for October 2026",
+      "description": "GSTR-1 monthly for Oct 26",
       "start": "2026-11-11T09:00:00+05:30",
       "end": "2026-11-11T09:30:00+05:30",
       "allDay": false,
@@ -1593,9 +1908,9 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_11_13_qrmp_iff",
-      "title": "QRMP / IFF Compliance",
-      "description": "IFF / QRMP-related compliance (as applicable).",
+      "id": "evt_2026_11_13_iff_qrmp",
+      "title": "IFF (QRMP)",
+      "description": "IFF filing for Oct 26 (QRMP)",
       "start": "2026-11-13T09:00:00+05:30",
       "end": "2026-11-13T09:30:00+05:30",
       "allDay": false,
@@ -1608,11 +1923,11 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_11_15_pf_esic",
-      "title": "PF / ESIC Payment",
-      "description": "PF/ESIC payment for October 2026",
-      "start": "2026-11-15T09:00:00+05:30",
-      "end": "2026-11-15T09:30:00+05:30",
+      "id": "evt_2026_11_13_gstr_5_6",
+      "title": "GSTR 5/6 Filing",
+      "description": "GSTR 5/6 return for Oct 26",
+      "start": "2026-11-13T09:00:00+05:30",
+      "end": "2026-11-13T09:30:00+05:30",
       "allDay": false,
       "notifyBeforeMinutes": [
         1440,
@@ -1620,12 +1935,12 @@
         10
       ],
       "location": "Office",
-      "colorHex": "#F59E0B"
+      "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_11_15_tds_certificate",
+      "id": "evt_2026_11_15_tds_certificate_q2",
       "title": "TDS Certificate Due",
-      "description": "TDS certificate due for Q2 2026-27.",
+      "description": "TDS Certificate Q2 26-27",
       "start": "2026-11-15T09:00:00+05:30",
       "end": "2026-11-15T09:30:00+05:30",
       "allDay": false,
@@ -1638,9 +1953,24 @@
       "colorHex": "#16A34A"
     },
     {
-      "id": "evt_2026_11_20_gstr_3b",
+      "id": "evt_2026_11_15_pf_esic",
+      "title": "PF/ESIC Payment",
+      "description": "PF/ESIC payment for Oct 26",
+      "start": "2026-11-15T09:00:00+05:30",
+      "end": "2026-11-15T09:30:00+05:30",
+      "allDay": false,
+      "notifyBeforeMinutes": [
+        1440,
+        60,
+        10
+      ],
+      "location": "Office",
+      "colorHex": "#F59E0B"
+    },
+    {
+      "id": "evt_2026_11_20_gstr3b",
       "title": "GSTR-3B Filing",
-      "description": "GSTR-3B monthly return (and related returns like GSTR-5A as applicable).",
+      "description": "GSTR-3B for Oct 26 (Monthly)",
       "start": "2026-11-20T09:00:00+05:30",
       "end": "2026-11-20T09:30:00+05:30",
       "allDay": false,
@@ -1653,9 +1983,24 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_11_25_pmt06",
+      "id": "evt_2026_11_20_gstr5a",
+      "title": "GSTR-5A Filing",
+      "description": "GSTR-5A for Oct 26 (Monthly)",
+      "start": "2026-11-20T09:00:00+05:30",
+      "end": "2026-11-20T09:30:00+05:30",
+      "allDay": false,
+      "notifyBeforeMinutes": [
+        1440,
+        60,
+        10
+      ],
+      "location": "Office",
+      "colorHex": "#5B5DE6"
+    },
+    {
+      "id": "evt_2026_11_25_gst_pmt06_qrmp",
       "title": "GST PMT-06 (QRMP)",
-      "description": "GST PMT-06 payment (QRMP).",
+      "description": "GST PMT-06 (QRMP) for Oct 26",
       "start": "2026-11-25T09:00:00+05:30",
       "end": "2026-11-25T09:30:00+05:30",
       "allDay": false,
@@ -1668,9 +2013,9 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_11_30_itr_tp_case",
+      "id": "evt_2026_11_30_itr_transfer_pricing",
       "title": "ITR Due (Transfer Pricing Case)",
-      "description": "ITR due for transfer pricing case (AY 2026-27).",
+      "description": "ITR AY 26-27 Transfer Pricing Case",
       "start": "2026-11-30T09:00:00+05:30",
       "end": "2026-11-30T09:30:00+05:30",
       "allDay": false,
@@ -1685,7 +2030,7 @@
     {
       "id": "evt_2026_12_07_tds_tcs_payment",
       "title": "TDS/TCS Payment Due",
-      "description": "TDS/TCS payment for November 2026",
+      "description": "TDS/TCS payment for Nov 26",
       "start": "2026-12-07T09:00:00+05:30",
       "end": "2026-12-07T09:30:00+05:30",
       "allDay": false,
@@ -1700,7 +2045,7 @@
     {
       "id": "evt_2026_12_10_gstr_7_8",
       "title": "GSTR 7/8 Filing",
-      "description": "GSTR 7/8 return for November 2026",
+      "description": "GSTR 7/8 return for Nov 26",
       "start": "2026-12-10T09:00:00+05:30",
       "end": "2026-12-10T09:30:00+05:30",
       "allDay": false,
@@ -1713,9 +2058,9 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_12_11_gstr_1",
+      "id": "evt_2026_12_11_gstr1_monthly",
       "title": "GSTR-1 Filing (Monthly)",
-      "description": "Monthly GSTR-1 filing for November 2026",
+      "description": "GSTR-1 monthly for Nov 26",
       "start": "2026-12-11T09:00:00+05:30",
       "end": "2026-12-11T09:30:00+05:30",
       "allDay": false,
@@ -1728,9 +2073,9 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_12_13_qrmp_iff",
-      "title": "QRMP / IFF Compliance",
-      "description": "IFF / QRMP-related compliance (as applicable).",
+      "id": "evt_2026_12_13_iff_qrmp",
+      "title": "IFF (QRMP)",
+      "description": "IFF filing for Nov 26 (QRMP)",
       "start": "2026-12-13T09:00:00+05:30",
       "end": "2026-12-13T09:30:00+05:30",
       "allDay": false,
@@ -1743,11 +2088,11 @@
       "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_12_15_pf_esic",
-      "title": "PF / ESIC Payment",
-      "description": "PF/ESIC payment for November 2026",
-      "start": "2026-12-15T09:00:00+05:30",
-      "end": "2026-12-15T09:30:00+05:30",
+      "id": "evt_2026_12_13_gstr_5_6",
+      "title": "GSTR 5/6 Filing",
+      "description": "GSTR 5/6 return for Nov 26",
+      "start": "2026-12-13T09:00:00+05:30",
+      "end": "2026-12-13T09:30:00+05:30",
       "allDay": false,
       "notifyBeforeMinutes": [
         1440,
@@ -1755,12 +2100,12 @@
         10
       ],
       "location": "Office",
-      "colorHex": "#F59E0B"
+      "colorHex": "#5B5DE6"
     },
     {
-      "id": "evt_2026_12_15_advance_tax",
+      "id": "evt_2026_12_15_advance_tax_3rd",
       "title": "Advance Tax Installment",
-      "description": "3rd Installment advance tax installment (AY 2027-28 timeline as per calendar).",
+      "description": "Advance Tax 3rd Installment (AY 27-28)",
       "start": "2026-12-15T09:00:00+05:30",
       "end": "2026-12-15T09:30:00+05:30",
       "allDay": false,
@@ -1773,9 +2118,24 @@
       "colorHex": "#0EA5E9"
     },
     {
-      "id": "evt_2026_12_20_gstr_3b",
+      "id": "evt_2026_12_15_pf_esic",
+      "title": "PF/ESIC Payment",
+      "description": "PF/ESIC payment for Nov 26",
+      "start": "2026-12-15T09:00:00+05:30",
+      "end": "2026-12-15T09:30:00+05:30",
+      "allDay": false,
+      "notifyBeforeMinutes": [
+        1440,
+        60,
+        10
+      ],
+      "location": "Office",
+      "colorHex": "#F59E0B"
+    },
+    {
+      "id": "evt_2026_12_20_gstr3b",
       "title": "GSTR-3B Filing",
-      "description": "GSTR-3B monthly return (and related returns like GSTR-5A as applicable).",
+      "description": "GSTR-3B for Nov 26 (Monthly)",
       "start": "2026-12-20T09:00:00+05:30",
       "end": "2026-12-20T09:30:00+05:30",
       "allDay": false,
@@ -1788,9 +2148,39 @@
       "colorHex": "#5B5DE6"
     },
     {
+      "id": "evt_2026_12_20_gstr5a",
+      "title": "GSTR-5A Filing",
+      "description": "GSTR-5A for Nov 26 (Monthly)",
+      "start": "2026-12-20T09:00:00+05:30",
+      "end": "2026-12-20T09:30:00+05:30",
+      "allDay": false,
+      "notifyBeforeMinutes": [
+        1440,
+        60,
+        10
+      ],
+      "location": "Office",
+      "colorHex": "#5B5DE6"
+    },
+    {
+      "id": "evt_2026_12_25_gst_pmt06_qrmp",
+      "title": "GST PMT-06 (QRMP)",
+      "description": "GST PMT-06 (QRMP) for Nov 26",
+      "start": "2026-12-25T09:00:00+05:30",
+      "end": "2026-12-25T09:30:00+05:30",
+      "allDay": false,
+      "notifyBeforeMinutes": [
+        1440,
+        60,
+        10
+      ],
+      "location": "Office",
+      "colorHex": "#5B5DE6"
+    },
+    {
       "id": "evt_2026_12_31_belated_revised_itr",
       "title": "Belated/Revised ITR Due",
-      "description": "Belated/Revised ITR due (AY 2026-27).",
+      "description": "Belated/Revised ITR AY 26-27",
       "start": "2026-12-31T09:00:00+05:30",
       "end": "2026-12-31T09:30:00+05:30",
       "allDay": false,
@@ -1803,9 +2193,9 @@
       "colorHex": "#EF4444"
     },
     {
-      "id": "evt_2026_12_31_gstr_9_9c",
-      "title": "GSTR-9 / 9C Due",
-      "description": "GSTR-9/9C annual return (FY 2025-26).",
+      "id": "evt_2026_12_31_gstr9_9c",
+      "title": "GSTR 9/9C Due",
+      "description": "GSTR 9/9C FY 25-26",
       "start": "2026-12-31T09:00:00+05:30",
       "end": "2026-12-31T09:30:00+05:30",
       "allDay": false,
